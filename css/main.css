@@ -347,8 +347,8 @@ td, th {
 
 .parallax {
     /* The image used */
-    background-image: url("../img/img-parallax.png");
-
+    background-image: url("../img/cover_img.JPG");
+    opacity: 0.6;
     /* Set a specific height */
     min-height: 450px; 
 
@@ -357,6 +357,11 @@ td, th {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .bg-black{
