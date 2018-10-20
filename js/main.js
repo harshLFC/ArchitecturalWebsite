@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 		else {
 			$('.navbar').removeClass('navbar-light').addClass('navbar-dark');
-			$('.navbar .navbar-brand img').attr('src', 'img/logo.png');
+			$('.navbar .navbar-brand img').attr('src', 'img/fav.png');
 		}
 	})
 })
