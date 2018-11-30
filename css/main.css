@@ -185,13 +185,13 @@ td, th {
 }
 
 .pt-max{
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 
 @media (max-width: 576px) {
   .pt-max{
-    padding-top: 70%;
+    padding-top: 24%;
   }
 }
 
@@ -232,6 +232,27 @@ td, th {
     height: 100vh;
     width: 100%;
 }
+
+#canvas-basic_2 {
+    opacity: 0.9;
+    position: absolute;
+    display: block;
+    height: 100vh;
+    width: 100%;
+}
+
+@media (max-width: 375px) {
+  #canvas-basic_2 {
+      opacity: 0.9;
+      position: absolute;
+      display: block;
+      height: 100vh;
+      width: 186%;
+      top: -3px;
+      left: -50px;
+  }
+}  
+
 
 
 .banner-area{
@@ -462,7 +483,7 @@ td, th {
 
 @media (width: 768px) {
   .pt-max{
-    padding-top: 50% !important;
+    padding-top: 24% !important;
   }
 }
 
